@@ -5,10 +5,7 @@
 		'birthday_widget:widget:title' => "Verjaardagen",
 		'birthday_widget:widget:description' => "Toon de leden die binnenkort jarig zijn",
 		
-		'birthday_widget:widget:no_results' => "Geen verjaardagen gevonden",
-		
 		'birthday_widget:widget:settings:who_to_show' => "Toon verjaardagen van:",
-		'birthday_widget:widget:settings:count' => "Aantal verjaardagen om te tonen:",
 		
 		'birthday_widget:settings:metadatafield' => "Metadata veld waarin de verjaardag staat",
 		'birthday_widget:settings:timeformat' => "Tijd formaat van het metadata veld",
@@ -18,4 +15,3 @@
 	);
 	
 	add_translation("nl", $dutch);
-?>

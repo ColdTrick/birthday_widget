@@ -1,0 +1,19 @@
+= Version History =
+x.x:
+
+- changed: plugin made Elgg 1.8 compatible
+
+1.1.1 (2011-05-24):
+
+- changed: widget registered on index 
+	
+1.1 (2011-05-04):
+
+- added: migration script to make all users member of site (see Elgg Track http://trac.elgg.org/ticket/3416)
+- changed: supported Elgg version to 1.7+ 
+- fixed: new pm_datapicker time format
+- fixed: elgg depricated notice in widget view
+
+1.0:
+
+- initial release
