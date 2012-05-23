@@ -23,6 +23,6 @@
 	
 	echo "<div>";
 	echo elgg_echo("widget:numbertodisplay");
-	echo "&nbsp;" . elgg_view("input/dropdown", array("name" => "params[num_display]", "value" => $num_display, "options_values" => $numbers));
+	echo "&nbsp;" . elgg_view("input/dropdown", array("name" => "params[num_display]", "value" => $num_display, "options" => $numbers));
 	echo "</div>";
 	
