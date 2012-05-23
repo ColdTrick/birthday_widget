@@ -35,7 +35,8 @@
 	switch($widget->context){
 		case "groups":
 			$user_options["relationship"] = "member";
-			$user_options["relationship_guid"] = $widget->getOwner();
+			$user_options["relationship_guid"] = $widget->getOwnerGUID();
+			$user_options["inverse_relationship"] = true;
 			break;
 		case "index":
 			if(($who == "all") || !elgg_is_logged_in()){
@@ -49,7 +50,7 @@
 			break;
 		default:
 			$user_options["relationship"] = "friend";
-			$user_options["relationship_guid"] = $widget->getOwner();
+			$user_options["relationship_guid"] = $widget->getOwnerGUID();
 			break;
 	}
 	
