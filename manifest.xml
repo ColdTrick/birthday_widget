@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin_manifest>
+	<field key="author" value="ColdTrick IT Solutions" />
+	<field key="version" value="1.1.1" />
+	<field key="description" value="Add a Birthday Widget to Profile. Based on a metadata field of the users" />
+	<field key="website" value="http://www.coldtrick.com/" />
+	<field key="copyright" value="(C) ColdTrick IT Solutions 2009" />
+	<field key="licence" value="GNU Public License version 2" />
+	<field key="elgg_version" value="2010071002" />
+</plugin_manifest>
+<!--
+========================
+Version History
+========================
+1.1.1 (2011-05-24):
+	- changed: widget registered on index 
+	
+1.1 (2011-05-04):
+	- added: migration script to make all users member of site (see Elgg Track http://trac.elgg.org/ticket/3416)
+	- changed: supported Elgg version to 1.7+ 
+	- fixed: new pm_datapicker time format
+	- fixed: elgg depricated notice in widget view
+
+1.0:
+	- initial release
+-->
