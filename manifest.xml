@@ -5,7 +5,9 @@
 	<version>2.0</version>
 	<description>Add a Birthday Widget to Profile. Based on a metadata field of the users</description>
 	<website>http://www.coldtrick.com</website>
-	<copyright>ColdTrick 2009 - 2012</copyright>
+	<repository>https://github.com/ColdTrick/birthday_widget</repository>
+	<bugtracker>https://github.com/ColdTrick/birthday_widget/issues</bugtracker>
+	<copyright>(C) ColdTrick IT Solutions 2011</copyright>
 	<license>GNU Public License version 2</license>
 	
 	<requires>
